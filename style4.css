@@ -1,0 +1,183 @@
+html, body{
+	height: :100%;
+	min-height: 100%;
+
+}
+
+/*Navbar section*/
+#navbar {
+	display: flex;
+    flex-direction: row;
+    padding: .5em;
+    justify-content: flex-end;
+    margin: 0 20px;
+
+}
+
+a { text-decoration: none;
+	color:rgb(45,45,45);
+	font-family:arial; 
+	font-size: 13px
+}
+#gmail {
+	grid-area: Gmail;
+	display: :flex;
+    padding: .5em;
+	border: 3px black;
+	justify-content:center;
+	align-self: center;
+
+}
+
+#images {
+	grid-area: images;
+	justify-content:center;
+	align-self: center;
+	padding: .5em;
+
+}
+
+#menu {
+	grid-area: menu;
+	justify-content:center;
+	align-self: center;
+    padding: .5em;
+}
+
+#connexion {
+	grid-area: connexion;
+	justify-content:center;
+	align-self: center;
+	padding: .5em;
+	background-color : rgb(66,133,244);
+	height : 18px;
+	width: 60px;
+	line-height: 20px;
+	text-align: center ;
+	color: white ;
+	font-weight: bold 
+	border: 1px solid blue;
+}
+
+
+/*main section*/
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items    : center;
+}
+
+#search{
+    font-size: 14px;
+    color: rgb(83,83,83);
+    width: 600px;
+    height: 45px;
+    margin-top: 2em;
+    margin-bottom: 2em; 
+    border-radius: 30px;
+    border: solid 1px #d9d9d9;
+}
+
+
+#button{
+    display: grid;
+    grid-template-rows: 2fr;
+    width: 300px;
+    margin-top: 2em;
+    margin: 1em;
+}
+
+
+#google-search-btn{
+    grid-column: 1;
+    grid-row: 1;
+    margin: .5em;
+    height: 30px;
+    border-radius: 5px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+#jai-de-la-chance-btn{
+    grid-column: 2;
+    grid-row: 1;
+    margin: .5em;
+    height: 30px;
+    border-radius: 5px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 27px;
+
+}
+
+#English{
+    color: #1a0dab;
+
+}
+
+/*footer section*/
+.footer{
+    background: #f2f2f2;
+    padding-top: 1em;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: -100%;
+    flex-wrap: nowrap;
+}
+
+.footer > div > a, nav > a{
+    color: rgba(0,0,0,.54);
+}
+
+.Left-Pays{
+    border: black;
+    padding: 1em;
+}
+
+hr{
+    opacity: .2;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.footer-left > a{
+    padding-right: 2em;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+    margin-top: -65px;
+
+}
+
+.footer-right > a{
+    padding-right: 2em;
+}
+
+/* Styles */
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
